@@ -25,7 +25,7 @@
 
         <Button Name="button7" Grid.Row="1" Grid.Column="0" 
                 HorizontalAlignment="Stretch" VerticalAlignment="Stretch"
-                Content="7" FontSize="25"></Button>
+                Content="7" FontSize="25" Click="button7_Click"></Button>
         <Button Name="button8" Grid.Row="1" Grid.Column="1" 
                 HorizontalAlignment="Stretch" VerticalAlignment="Stretch"
                 Content="8" FontSize="25"></Button>
@@ -58,11 +58,11 @@
 
         <Button Name="equel" Grid.Row="4" Grid.Column="1" Grid.ColumnSpan="2" 
                 HorizontalAlignment="Stretch" VerticalAlignment="Stretch"
-                Content="=" FontSize="25"></Button>
+                Content="=" FontSize="25" Click="equel_Click"></Button>
 
         <Button Name="plus" Grid.Row="1" Grid.Column="4" 
                 HorizontalAlignment="Stretch" VerticalAlignment="Stretch"
-                Content="+" FontSize="25"></Button>
+                Content="+" FontSize="25" Click="plus_Click"></Button>
         <Button Name="minus" Grid.Row="2" Grid.Column="4" 
                 HorizontalAlignment="Stretch" VerticalAlignment="Stretch"
                 Content="-" FontSize="25"></Button>
@@ -75,7 +75,7 @@
 
         <TextBlock Name="wrot" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="4"
                    FontSize="35"
-                   HorizontalAlignment="Center" VerticalAlignment="Center">Пиши......</TextBlock>
+                   HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
 
 
     </Grid>
